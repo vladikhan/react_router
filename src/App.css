@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  margin-top: 20px;
+}
+nav {
+  background-color: lemonchiffon;
+  padding: 5px;
+}
+nav a {
+  margin: 15px;
+}
+a {
+  color: coral;
+  font-size: 25px;
+}
+
+.activeLink {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.courseLink {
+  font-size: 25px;
+  text-decoration: none;
+  color: red;
+}
+
+.courseLink:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Used by default with NavLink */
+/* 3й способ */
+/* .active {
+  color: green;
+  text-decoration: none;
+} */
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+}
